@@ -75,7 +75,7 @@ html {
 	min-height: 100vh;
 	background: 
 		linear-gradient(rgba(0, 43, 54, 0.5), rgba(0, 13, 23, 0.5)),
-		url("bg.webp");
+		url("de_bg.webp");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -999,6 +999,9 @@ h1 {
 	);
 }
 .r_t {
+	padding: 8px;
+	width: fit-content;
+	margin: 8px;
 	background: linear-gradient(
 		180deg,
 		#ed433faf 0%,
@@ -1184,7 +1187,8 @@ wbr {
 	background-blend-mode: luminosity;
 }
 .lgrp,.mtit {
-	margin-left: 2em;
+	min-width: 60em;
+	min-height: 30em;
 	position: relative;
 	text-align: left;
 	color: #eee8d5;
@@ -1196,6 +1200,7 @@ wbr {
 	padding: 8px;
 }
 .mtit {
+	margin-left: 2em;
 	padding-left: 8em;
 	padding-right: 8em;
 
